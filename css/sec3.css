@@ -22,12 +22,14 @@
     margin-bottom: 3vw;
 }
 .mainContainer{
+    /* box-sizing: border-box; */
+    height: 30vw;
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
     align-items: center;
     justify-content: center;
-    
+    /* margin: .5vw; */
 }
 .box1{
     /* border: 1px solid green; */
@@ -41,7 +43,7 @@
 }
 .box1>img{
     
-    height: 15vw;
+    height: 13vw;
     width: 23vw;
     object-fit: fill;
     /* margin: 0 5vw; */
@@ -63,27 +65,31 @@
 
 .boxtext{
     /* border: 1px solid green; */
-    height: 11vw;
+    height: 14vw;
     width: 20vw;
-    margin-left: 1vw;
+    /* margin-left: 1vw; */
 }
 .boxdiv{
-    margin: 0.4vw 0;
+    margin-top: 0.4vw 0;
     font-size: 0.8em;
     color: var(--element1-color);
     line-height: 18px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
+    height: 2.3vw;
+    overflow-y: hidden;
 }
 .boxtext h1{
-    margin: 0.5vw 0;
+    margin: 0.3vw 0;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     line-height: 27px;
     color: var(--element-color);
-    width: 15vw;
+    width: 20vw;
     font-size: 1em;
+    height: 3.3vw;
+    overflow-y: hidden;
 }
 .boxContent{
     font-size: 0.7em;
@@ -103,7 +109,7 @@
 }
 .boxauthor{
     display: flex;
-    margin-top: 0.5vw;
+    margin-top: 0.8vw;
 }
 .boxauthor>img{
     height: 2vw;
